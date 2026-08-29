@@ -32,13 +32,4 @@ Single-device pilot. **Only structure + design are mirrored here** — no source
 ## Stack
 Python 3.11 · FastAPI · SQLAlchemy 2.x · SQLite-per-tenant · PBKDF2-HMAC password hashing (stdlib, no native deps) · JWT (python-jose) · vanilla JS PWA.
 
-## Sanitized
-- All secrets / `.env` values removed (signing secret, chat tokens, dev credentials). Only the architecture is described.
-- No IP addresses or ports — described as a local dev server.
-- No absolute home/server paths — replaced with a relative tree.
-- No SSH keys or internal hostnames.
-- No proprietary source — design-level overview only (client work).
-- No client / shop name — described generically.
 
-## Why it matters
-Proof of building the **multi-tenant fintech-ledger layer**: tenant isolation, RBAC, configurable compliance caps, and an active limit-prediction engine. Demonstrates a local-first, offline-capable SaaS architecture for regulated cash-handling businesses.

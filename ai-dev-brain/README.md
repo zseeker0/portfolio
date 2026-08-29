@@ -1,6 +1,6 @@
 # ai-dev-brain (sanitized mirror)
 
-> **Original:** private Obsidian vault. Redacted overview — knowledge structure only.
+> **Original:** private Obsidian vault. Redacted overview — knowledge structure only. No personal notes included.
 > The public, installable tool is **ai-dev-brain-kit** (separate repo). This vault is the
 > personal knowledge base that tool manages.
 
@@ -24,11 +24,4 @@ ai-dev-brain/
 - Obsidian graph view makes the knowledge network navigable.
 - The `ai-dev-brain-kit` CLI captures, consolidates, and serves this vault as AI session context.
 
-## Sanitized
-- All personal notes, decisions, logs: **excluded** (this is a private vault).
-- `.brain.json` config keys: described, values omitted.
-- Only the *method* (PARA + graph) is mirrored.
 
-## Why it matters
-Shows the **knowledge-management discipline** behind shipping reliably as a solo builder — and the
-design that became a shipped, tested CLI tool (ai-dev-brain-kit).

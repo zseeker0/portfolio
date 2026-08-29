@@ -1,6 +1,6 @@
 # agent-command-center (sanitized mirror)
 
-> **Original:** private. Redacted overview — design + UI architecture only.
+> **Original:** private. Redacted overview — design + UI architecture only. No secrets or paths included.
 
 ## What it is
 A **canvas-based "Portfolio Office"** dashboard that visualizes AI agents and projects as
@@ -17,10 +17,4 @@ characters in a pixel world, with real-time status and camera follow. (Reuses MI
   `/api/agent/<name>`, `/api/project/<slug>`.
 - **Tests:** backend (brain filtering, allowlist, 404, token, API), collision, portfolio composition.
 
-## Sanitized
-- Real agent names kept only where they are *public tool names* (OpenCode, Codex, Flowise).
-- Internal project slugs / paths: replaced with generic counts.
-- Art binaries: not redistributed; MIT attribution retained.
 
-## Why it matters
-A concrete example of **agent monitoring + UX** — making a fleet of agents legible to a human operator.

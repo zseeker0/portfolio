@@ -28,10 +28,4 @@ zserverai-infrastructure/
 - ✅ No models — Ollama models excluded; only model *list* in manifests/
 - ✅ No archives — backup tarballs/checksums excluded
 
-## Sanitized further in this mirror
-- Internal hostnames (`zserverai`, `zghost`): renamed to generic "homelab".
-- Any remaining IP placeholders: kept as `10.0.0.0/24` style examples only.
 
-## Why it matters
-Shows I can **stand up and rebuild real infrastructure** (containers, services, proxy) reproducibly
-— the backend discipline behind any deployed AI product.

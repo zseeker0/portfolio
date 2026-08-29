@@ -24,11 +24,4 @@ homelab-control-mcp/
 - **Agent-safe surface** — agents never get a shell; they get curated, validated operations.
 - **Local-first** — bound to localhost; no inbound network exposure.
 
-## Sanitized
-- All service names, host addresses, and auth config removed.
-- `.env` / credentials: not present in this mirror (templates only, placeholder values).
-- Internal hostnames (e.g. `zserverai`, `zghost`): removed.
 
-## Why it matters
-Proof of building the **agent↔system integration layer** — the same pattern an AI product uses to
-let its agent safely act on backend systems (exactly what a visa-automation agent needs).

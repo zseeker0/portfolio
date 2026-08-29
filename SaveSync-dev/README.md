@@ -1,6 +1,6 @@
 # SaveSync / SaveSync-dev (sanitized mirror)
 
-> **Original:** private (`SaveSync-dev`) + public releases. Redacted overview — product + design only.
+> **Original:** private (`SaveSync-dev`) + public releases. Redacted overview — product + design only. No credentials or user data included.
 
 ## What it is
 **SaveSync** — a local-first backup/sync/restore tool for PC game saves (Windows + Linux).
@@ -19,10 +19,4 @@
 - Windows 7/8/10/11 + Linux dev builds.
 - Local-first: backups need no account, no internet.
 
-## Sanitized
-- No cloud credentials, no user data, no real save paths in this mirror.
-- Beta download links: generic ("see releases"), not hardcoded.
 
-## Why it matters
-Proof of **shipping a real product end-to-end** (packaging, checksum integrity, restore safety) —
-not just scripts. The public-facing, user-trusted kind of work.

@@ -23,11 +23,4 @@ MIT-licensed public sources + user uploads, with tenant isolation, encryption, a
 - **Content strategy:** public MIT catalog + metadata-only proprietary records + encrypted private imports.
 - **Known limitations (honest):** frontend scaffold only; some phases not built; local Ollama dependency.
 
-## Sanitized
-- All `.env` keys, Clerk keys, MinIO creds, DB connection strings: **excluded**.
-- API endpoint list: kept (it's design documentation, no secrets).
-- No source files, no migrations, no seed data.
 
-## Why it matters
-Evidence of **shipping a tested, multi-service SaaS backend** (208 tests) with security primitives
-(auth, RLS, encryption) — the level of engineering a funded AI startup operates at.

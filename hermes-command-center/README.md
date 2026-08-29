@@ -27,11 +27,4 @@ hermes-command-center/
   (active → office, failing → boardroom, planned → overflow).
 - **Camera presets** — overview / per-zone zoom + drag-to-pan + click-to-follow (LERP).
 
-## Sanitized
-- `.env` values, internal URLs, DB paths: removed (`.env.example` templates only).
-- Real project names / slugs: replaced with generic counts (e.g. "27 projects").
-- Art assets: MIT-licensed third-party; attribution retained, binaries not redistributed here.
 
-## Why it matters
-Shows I can build **agent control planes + monitoring UIs** — the ops layer a small AI team needs
-to see what its agents are doing.

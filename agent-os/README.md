@@ -1,6 +1,6 @@
 # agent-os (sanitized mirror)
 
-> **Original:** private. Redacted overview — architecture + adapter design only.
+> **Original:** private. Redacted overview — architecture + adapter design only. No credentials or endpoints included.
 
 ## What it is
 A **multi-agent orchestration framework**: a thin core that wires different coding agents
@@ -28,10 +28,4 @@ agent-os/
 - **Safety lib** — `validator`, `differ`, `manifest`, `backup` guard changes before apply.
 - **CI** — GitHub Actions runs the test/lint suite on every push.
 
-## Sanitized
-- No credentials, tokens, or real agent endpoints in this mirror.
-- `identity.yaml` / `connections.yaml` values: described, not included.
 
-## Why it matters
-Demonstrates **orchestration engineering** — composing multiple AI agents behind one control model,
-with validation/safety guards. Directly relevant to running agent fleets in production.
