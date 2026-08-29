@@ -31,6 +31,7 @@ Private source remains private. This repo is a **portfolio**, not a leak.
 | zserverai-infrastructure | Infra-as-code | Shell/YAML | systemd, docker, caddy, sanitized migration |
 | helium-design-intelligence-saas | SaaS (proprietary) | TS/Py | Architecture only — no source |
 | SaveSync / SaveSync-dev | Game-save backup tool | Python | Local-first backup/restore, checksum-verified |
+| Fulus | Multi-tenant cash/wallet ledger SaaS | Python/JS | Tenant isolation, RBAC, active limit engine, Arabic RTL PWA |
 
 See each folder for the per-project redacted README.
 
