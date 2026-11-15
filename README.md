@@ -1,6 +1,6 @@
 # Portfolio — Sanitized Mirrors of Private Work
 
-> Public, redacted overview of selected private repositories by Mohamed Hussien (@MohamedHussien-zseeker).
+> Public, redacted overview of selected private repositories by **zseeker** (@zseeker0).
 > Purpose: let recruiters / collaborators verify the *kind* and *scope* of work without exposing
 > secrets, infrastructure, or proprietary code.
 
